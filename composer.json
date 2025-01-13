@@ -1,0 +1,23 @@
+{
+    "name": "root/html",
+    "description": "Biblioteca Desenvolvimento Avançado em PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Root\\Html\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Altn",
+            "email": "altnrei@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    }
+}
